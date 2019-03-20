@@ -9,6 +9,8 @@ FIGLET := pyfiglet -w 160 -f puffy
 # Build different images for OSS-only and full versions.
 IMAGE_FLAVORS ?= oss full
 
+BASE_IMAGE ?= centos:7
+
 default: from-release
 
 test: lint clean-test
@@ -38,6 +40,7 @@ clean:
 # to override it in the environment.
 from-release:
 	tedi build --fact=image_tag:$(ELASTIC_VERSION) \
+	           --fact=base_image:$(BASE_IMAGE) \
 	           --asset-set=default
 
 # Build images from snapshots on snapshots.elastic.co

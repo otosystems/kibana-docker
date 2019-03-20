@@ -16,6 +16,7 @@ images:
 facts:
   docker_registry: docker.elastic.co
   kibana_dir: /usr/local/src/kibana
+  base_image: centos:7
 
 asset_sets:
   # By default, build from publicly released artifacts.
