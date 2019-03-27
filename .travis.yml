@@ -7,6 +7,7 @@ services: ['docker']
 env:
   matrix:
   - ELASTIC_VERSION=6.4.1
+  - ELASTIC_VERSION=6.5.4
   global:
   - BASE_IMAGE=665441826412.dkr.ecr.us-east-1.amazonaws.com/centos-oto:20032019
   - secure: 4J6ZWKeRo5XgFZUexnB1HACzogdtx6NQ/W5ZCtERHW6n7mtTpLC0fQBe8ScSlFSrJzr1LCdBIWA0llLmUYUg4E/d4H8JHvuVgQXs+FvTw7XbNaQgHf21OX1LJi6lhDjMMxvWl7gADo9pRRlaGsctyqLc5yafC6qYj79yOwBLG5RlUv75BrSoNuh/NzUAfgOZmJA9dcYsCoWNx0YV5vS/sBRhB5WoqLH7+4OhfgSzrfcmodrpfKjFMJIyGPKpVslFshg27LqwlCK5fGYbB6HFaPtYpzLfxuo29zH9coGsM1kGjFAcyN7vKmU6bn8+1mO12ZE/m6Ok2ZonsiQ//hDEcqdFKV9s2c4sDoGjCPHa+XhAwATBZOIfrfw+hipHVZUom8WMkIRpUi26uedqpJc6OCqZnDeMHb2EJaeLsKMxg4XBX4h53T0IHkh2tBusjbF6RlhOeBcLPtEuXmDvrzQAvy8sDZSk+/cx2LQBs0oZymHFCPUphObiPWJ1UH3VHQuUlFSgBc1cg/DySMk4ZPQuy77GSoAtcaiz3Lvmj9mf/bch9EOKZhfhlrnVkk8o3RxDFRYjW+MnokMMD2le/Dhe5MYvr9bqB18E2RZaWRLIEzQm+DU152w4VHx70KoobbxyKXQtzDg40bfk1S9zvFNBbqc/GLMr30gV2CGmgT+U+P0=
